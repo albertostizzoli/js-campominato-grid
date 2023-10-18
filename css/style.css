@@ -1,0 +1,25 @@
+#playground{
+    width: 600px;
+    height: 600px;
+    background-color: black ;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+}
+
+.square{
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.active{
+    background-color: rgb(0, 145, 255);
+}
