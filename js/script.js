@@ -29,6 +29,7 @@ btn.addEventListener('click', function(){
     square.addEventListener('click', function(){
         square.classList.add('active');
         square.style.color = 'black';
+        console.log(square.textContent);
     });
       return square;
  }
